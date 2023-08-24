@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Certificate Generator</h1>
+    <form id="certificateForm">
+        <label for="recipientName">Recipient's Name:</label>
+        <input type="text" id="recipientName" name="recipientName" required><br>
+
+        <label for="duration">Duration:</label>
+        <input type="text" id="duration" name="duration" required><br>
+
+        <label for="companyName">Company/Organization Name:</label>
+        <input type="text" id="companyName" name="companyName" required><br>
+
+        <label for="internshipRole">Internship Role/Title:</label>
+        <input type="text" id="internshipRole" name="internshipRole" required><br>
+
+        <label for="issuerName">Issuer's Name:</label>
+        <input type="text" id="issuerName" name="issuerName" required><br>
+
+        <button type="submit">Generate Certificate</button>
+    </form>
+
+    <div id="certificateDisplay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

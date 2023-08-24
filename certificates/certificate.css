@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.certificate {
+    border: 2px solid #0073e6;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0073e6;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.name, .company, .details, .signature {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.signature {
+    margin-top: 40px;
+    font-weight: bold;
+}
